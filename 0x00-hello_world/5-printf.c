@@ -3,8 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: prints "With proper grammar, but the outcome is a piese of art,"
- *
+ * Description: prints "With proper grammar, but the outcome is a piece of
+ *  art,"
+ *  
  * Return: Always 0 (Success)
  */
 int main(void)
