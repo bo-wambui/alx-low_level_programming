@@ -1,19 +1,19 @@
-#include <stdio.h>
-/*
- *
- *
- *
- *
- *
-*/
-int addnumbers(int a, int b);
+#include "main.h"
 
-int main(void)
+/**
+ * _isupper - Entry point
+ *
+ * @c: c is a variable name
+ *
+ * Return: Always 0 (Success)
+ */
+
+int _isupper(int c)
 {
-	int total;
-	total = addnumbers(5, 7);
+if (c >= 97 && c <= 122)
+return (0);
+if (c >= 65 && c <= 90)
+return (1);
 
-	printf("total = %d\n", total);
-	return (0);
-
+return (0);
 }
